@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password" />-->
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1365" xmltv_id=" Premiere Clubes"> Premiere Clubes</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1360" xmltv_id=" Premiere 2"> Premiere 2</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1361" xmltv_id=" Premiere 3"> Premiere 3</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1027" xmltv_id=" Combate"> Combate</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_1023" xmltv_id=" SporTV 3"> SporTV 3</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_470" xmltv_id=" SporTV 2"> SporTV 2</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_471" xmltv_id=" SporTV"> SporTV</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_471" xmltv_id="Campinas/SP  SporTV">Campinas/SP  SporTV</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_426" xmltv_id=" ESPN"> ESPN</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_427" xmltv_id=" ESPN 2"> ESPN 2</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_1034" xmltv_id=" ESPN 4"> ESPN 4</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_1872" xmltv_id="Globo SP">Globo SP</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_1940" xmltv_id=" SBT"> SBT</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_2063" xmltv_id=" BAND"> BAND</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_1899" xmltv_id=" Record"> Record</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_420" xmltv_id=" Discovery Kids"> Discovery Kids</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_462" xmltv_id=" Nickelodeon"> Nickelodeon</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_488" xmltv_id=" Disney"> Disney</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_832" xmltv_id=" Nick Jr"> Nick Jr</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_1270" xmltv_id=" Cartoon Network"> Cartoon Network</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_2257" xmltv_id=" History"> History</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_1011" xmltv_id=" History2"> History2</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_407" xmltv_id=" Animal Planet"> Animal Planet</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_1353" xmltv_id=" National Geographic"> National Geographic</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_421" xmltv_id=" Discovery"> Discovery</channel>
+  <channel update="i" site="clarotv.com.br" site_id="91_#_476" xmltv_id=" Telecine Pipoca"> Telecine Pipoca</channel>
+  <channel update="i" site="clarotv.com.br" site_id="1_#_483" xmltv_id=" Universal "> Universal </channel>
+ 
+</settings>
