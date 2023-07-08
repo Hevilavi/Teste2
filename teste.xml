@@ -1,1 +1,23 @@
+<?xml version="1.0"25
+
+<settings>
+
+<!-- for detailed info about the settings see http://webgrabolus.com/documentation/configuration/webgrabconfigxml -->
+
+<filename>guide.xml</filename>
+
+<mode></mode>
+
+<postprocess grab="y" run="n">mdb</postprocess>
+
+<user-agent Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+
+<logging>on</logging>
+
+<retry time-out="5">4</retry>
+
+<timespan>6</timespan>
+
+<update>f</update>
+
 <channel https://meuguia.tv/programacao/canal/SPO xmltv_id="SporTV">SporTV</channel>
